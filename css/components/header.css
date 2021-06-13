@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  height: 480px;
+  background-image: url("../../images/mobile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
