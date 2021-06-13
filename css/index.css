@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  font-size: 16px;
+  --font-barlow: "Barlow", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+
+  --soft-red: rgb(254, 120, 103);
+  --yellow: rgb(250, 212, 0);
+  --dark-desaturated-cyan-graphic-design-text: rgb(37, 86, 75);
+  --dark-blue-photography-text: rgb(25, 83, 107);
+  --dark-moderate-cyan-footer: rgb(69, 140, 126);
+
+  /* Neutral */
+
+  --very-dark-desaturated-blue: rgb(35, 48, 62);
+  --very-dark-grayish-blue: rgb(90, 99, 108);
+  --dark-grayish-blue: rgb(129, 132, 152);
+  --grayish-blue: rgb(167, 171, 174);
+  --white: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth;
+}
