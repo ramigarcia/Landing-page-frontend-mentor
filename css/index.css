@@ -27,3 +27,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-size: 1rem;
+  font-family: var(--font-barlow);
+  max-width: 100%;
+  background-color: var(--white);
+}
