@@ -1,0 +1,23 @@
+@import url("./hero-arrow-down.css");
+
+.header__hero {
+  width: 90%;
+  height: calc(100% - 50px);
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__hero-title {
+  font-family: var(--font-fraunces);
+  color: var(--white);
+  font-size: 2.7rem;
+  font-weight: 900;
+  letter-spacing: 6px;
+  margin-top: -60px;
+  text-align: center;
+  text-transform: uppercase;
+}
