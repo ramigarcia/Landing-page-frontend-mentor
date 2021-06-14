@@ -1,0 +1,16 @@
+.header__hero-arrow-down {
+  margin: 50px auto 0;
+  animation-name: animationArrow;
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes animationArrow {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
