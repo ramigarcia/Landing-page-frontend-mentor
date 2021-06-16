@@ -1,0 +1,54 @@
+.services {
+  width: 100%;
+}
+
+.graphic,
+.photography {
+  width: 100%;
+  height: 512px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.graphic__content,
+.photography__content {
+  width: 95%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+}
+
+.services__title {
+  font-size: 1.7rem;
+  font-family: var(--font-fraunces);
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.services__paragraph {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+}
+
+.graphic__content-title {
+  color: var(--dark-desaturated-cyan-graphic-design-text);
+}
+.graphic__content-paragraph {
+  color: var(--dark-desaturated-cyan-graphic-design-text);
+}
+
+.photography__content-title {
+  color: var(--dark-blue-photography-text);
+}
+.photography__content-paragraph {
+  color: var(--dark-blue-photography-text);
+}
