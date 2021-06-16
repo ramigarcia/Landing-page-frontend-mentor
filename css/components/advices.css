@@ -76,3 +76,12 @@
   opacity: 0.3;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 720px) {
+  .advices {
+    display: grid;
+    grid-template-areas:
+      "transform-paragraph transform-img"
+      "stand-out-paragraph stand-out-img";
+  }
+}

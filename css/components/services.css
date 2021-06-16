@@ -5,12 +5,18 @@
 .graphic,
 .photography {
   width: 100%;
-  height: 512px;
+  min-height: 512px;
   margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
-  padding: 0;
-  top: 0;
-  bottom: 0;
+}
+
+.graphic {
+  background-image: url("../../images/mobile/image-graphic-design.jpg");
+}
+.photography {
+  background-image: url("../../images/mobile/image-photography.jpg");
 }
 
 .graphic__content,
@@ -18,9 +24,9 @@
   width: 95%;
   margin: auto;
   position: absolute;
+  bottom: 30px;
   left: 0;
   right: 0;
-  bottom: 40px;
 }
 
 .services__title {
@@ -51,4 +57,26 @@
 }
 .photography__content-paragraph {
   color: var(--dark-blue-photography-text);
+}
+
+@media screen and (min-width: 452px) {
+  .graphic,
+  .photography {
+    background-position: center;
+  }
+
+  .graphic {
+    background-image: url("../../images/desktop/image-graphic-design.jpg");
+  }
+  .photography {
+    background-image: url("../../images/desktop/image-photography.jpg");
+  }
+
+  .services__title {
+    font-size: 1.9rem;
+  }
+
+  .services__paragraph {
+    font-size: 1.1rem;
+  }
 }
